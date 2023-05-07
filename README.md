@@ -1,5 +1,5 @@
 # UploadServer
-A Flask based Upload server for Windows 11
+A Flask based upload server for Windows 11. You can use this application to transfer any file from any device with a web-browser installed and connected to the same network as this application is running.
 
 
 Pre-requisites
