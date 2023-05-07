@@ -10,3 +10,4 @@ Procedure to start the server
 =============================
 1. Create an empty folder named "files" in the folder "upload_server".
 2. Double click the "main.py" file to start serving.
+3. Enter the URL displayed, inside the address bar of the web-browser of the destination device.
