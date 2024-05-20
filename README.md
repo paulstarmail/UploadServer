@@ -1,10 +1,10 @@
 # UploadServer
-A Flask based upload server for Windows 11. This application can be used to transfer any file from any device with a web-browser installed and connected to the same network where this application is running.
+A Flask based upload server for ubuntu. This application can be used to transfer any file from any device with a web-browser installed and connected to the same network where this application is running.
 
 
 Pre-requisites
 ==============
-Install all dependencies which are imported in the "main.py" file.
+Install all dependencies which are imported in the "main.py" file. This step is needed only if the software does not work out-of-the-box.
 
 Procedure to start the server
 =============================
