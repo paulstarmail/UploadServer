@@ -8,6 +8,6 @@ Install all dependencies which are imported in the "main.py" file. This step is 
 
 Procedure to start the server
 =============================
-1. Run "./main.py" file to start serving.
+1. Run "./main.py <desired port number>" file to start serving.
 2. Enter the URL displayed, inside the address bar of the web-browser of the client device.
 3. The uploaded files will be in the folder "files" of this server application.
