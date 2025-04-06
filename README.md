@@ -4,11 +4,10 @@ A Flask based upload server for ubuntu. This application can be used to transfer
 
 Pre-requisites
 ==============
-Install all dependencies which are imported in the "main.py" file. This step is needed only if the software does not work out-of-the-box.
+sudo apt install python3-flask
+Create "uploads" folder.
+Make the script executable and place it in the same directory where "uploads" folder resides.
 
 Procedure to start the server
 =============================
-1. Run the below command to start serving.\
-   $ ./main.py \<port number\>
-2. Enter the URL displayed, inside the address bar of the web-browser of the client device.
-3. The uploaded files will be in the folder "files" of this server application.
+./server.py
