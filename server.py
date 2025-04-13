@@ -143,14 +143,14 @@ def get_public_ip():
         print("Error fetching IP:", e)
         return None
 
-REMOTE_PORT = "30003"
+FIREWALL_PORT = "30003"
 
 if __name__ == '__main__':
     try:
         port = str(sys.argv[1])
     except:
         port = "6003"
-    print("Public URL: http://" + str(get_public_ip()) + ":" + REMOTE_PORT)
+    print("Public URL: http://" + str(get_public_ip()) + ":" + FIREWALL_PORT)
     ip = check_output(['hostname', '--all-ip-addresses'])
     ip = ip.decode("utf-8").strip()
     print("Local URL: http://" + ip + ":" + port)
