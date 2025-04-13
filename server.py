@@ -144,15 +144,15 @@ def get_public_ip():
         return None
 
 if __name__ == '__main__':
-	try:
-		port = str(sys.argv[1])
-	except:
-		port = "6003"
-	print("Public URL: http://" + str(get_public_ip()) + ":30003")
-	ip = check_output(['hostname', '--all-ip-addresses'])
-	ip = ip.decode("utf-8").strip()
-	print("Local URL: http://" + ip + ":" + port)
-	try:
-		app.run(debug=True, host='0.0.0.0', port=port)
-	except:
-		print("\nERROR: The port " + port + " is in use by some other program.")
+    try:
+        port = str(sys.argv[1])
+    except:
+        port = "6003"
+    print("Public URL: http://" + str(get_public_ip()) + ":30003")
+    ip = check_output(['hostname', '--all-ip-addresses'])
+    ip = ip.decode("utf-8").strip()
+    print("Local URL: http://" + ip + ":" + port)
+    try:
+        app.run(debug=True, host='0.0.0.0', port=port)
+    except:
+        print("\nERROR: The port " + port + " is in use by some other program.")
