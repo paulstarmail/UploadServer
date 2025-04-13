@@ -10,4 +10,4 @@ Make the script executable and place it in the same directory where "uploads" fo
 
 Procedure to start the server
 =============================
-./server.py
+./server.py [PORT]
